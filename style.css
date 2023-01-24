@@ -79,6 +79,7 @@
     font-size: 15px;
     text-align: center;
     background: #FFFFFF;
+    resize: none;
 }
 .soloMinusculas{
     font-size: 12px;
