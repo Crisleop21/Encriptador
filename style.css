@@ -116,6 +116,10 @@
     text-align: center;
     color: #FFFFFF;
 }
+.btn-encriptar:hover{
+    background: #D8DFE8;
+    color: #0A3871;
+}
 
 .btn-desencriptar{
     cursor: pointer;
@@ -131,6 +135,10 @@
     line-height: 19px;
     text-align: center;
     color: #0A3871;
+}
+.btn-desencriptar:hover{
+    background: #0A3871;
+    color: #FFFFFF;
 }
 
 .copiar{
@@ -149,22 +157,41 @@
     text-align: center;
     color: #0A3871;
 }
+.copiar:hover{
+    background: #0A3871;
+    color: #FFFFFF;
+}
 
 .footer {
     text-align: center;
     padding: 10px;
     clear: both;
-    
-  }
+
+}
+
 .fa-github{
     color: #1b263b;
-    margin-left: 1%;   
+    margin-left: 1%;
+    font-size: 40px;      
 }
+.fa-github:hover{
+    color: #0A3871;
+}
+
 .fa-linkedin{
-    color: #1b263b;  
+    color: #1b263b;
+    font-size: 40px;
 }
+.fa-linkedin:hover{
+    color: #0A3871;
+}
+
 .fa-twitter{
     color: #1b263b;
-    margin-left: 1%;    
+    margin-left: 1%;
+    font-size: 40px;     
+}
+.fa-twitter:hover{
+    color: #0A3871;
 }
 
