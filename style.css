@@ -9,13 +9,13 @@
 .contenedor{
     margin: auto;
     width: 960px;
-    height: 650px;
+    height: 550px;
     padding: 5px;
 }
 
 .logo{
     padding-top: 10px;
-    margin-left: 10px;
+    margin-left: 6%;
     margin-top: 1%;
     width: 120px;
     height: 48px;
@@ -28,7 +28,15 @@
     width: 70%;
     height: 70%;
     border-radius: 24px;
+
 }
+#izquierda{
+    float: left;
+    width: 70%;
+    height: 30%;
+    border-radius: 24px;
+}
+
 .text-input{
     border: none;
     outline: none;
@@ -79,11 +87,18 @@
     font-size: 15px;
     text-align: center;
     background: #FFFFFF;
+    resize: none;
+}
+
+.fa-circle-exclamation{
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;  
 }
 .soloMinusculas{
     font-size: 12px;
     line-height: 150%;
-    color: #495057;
+    color: #495057;    
 }
 
 .btn-encriptar{
@@ -131,3 +146,19 @@
     text-align: center;
     color: #0A3871;
 }
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    clear: both;
+  }
+.fa-github{
+    color: #1b263b;    
+}
+.fa-linkedin{
+    color: #1b263b;    
+}
+.fa-twitter{
+    color: #1b263b;    
+}
+

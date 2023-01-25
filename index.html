@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2827eb190e.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <title>Encriptador</title>
 </head>
@@ -27,16 +28,21 @@
             <div>
                 <h1 id="texto" class="noMensajes">Ningún mensaje fue encontrado</h1>
                 <textarea name="name" class="ingresaTexto"
-                cols="25" rows="3" id="texto2">Ingresa el texto que desees encriptar o desencriptar.
+                cols="30" rows="5" id="texto2">Ingresa el texto que desees encriptar o desencriptar.
                 </textarea>
                 <button id="copiar" class="copiar" type="button" name="button" onclick="copiar()">Copiar</button>
             </div>
         </section>
-        <div class="izquierda">
-            <p class="soloMinusculas">Solo letras minúsculas y sin acentos</p>
+        <div id="izquierda">
+            <p class="soloMinusculas"><i class="fa-solid fa-circle-exclamation"></i>Solo letras minúsculas y sin acentos</p>
             <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
             <button class="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
         </div>
     </main>
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/cristian-poroj/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Crisleop21" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://twitter.com/Crisleo_p" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    </footer>
 </body>
 </html>
